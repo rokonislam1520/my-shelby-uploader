@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>My Shelby Uploader</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #f8f9fa; }
+    h1 { color: #333; }
+    button { padding: 15px 30px; font-size: 18px; background: #007bff; color: white; border: none; border-radius: 8px; cursor: pointer; }
+    button:hover { background: #0056b3; }
+    #status { margin: 20px; font-size: 18px; font-weight: bold; }
+    #result { margin-top: 30px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <h1>🚀 My Shelby Uploader</h1>
+  <p><strong>Shelby Verifiable Global Storage</strong><br>Write once, read anywhere with cryptographic proof</p>
+  
+  <input type="file" id="fileInput" accept="image/*,video/*" style="margin: 20px;">
+  <br>
+  <button onclick="uploadFile()">Upload to Shelby</button>
+  
+  <div id="status"></div>
+  <div id="result"></div>
+
+  <script>
+    async function uploadFile() {
+      const file = document.getElementById('fileInput').files[0];
+      if (!file) {
+        alert("❌ Please select a file first!");
+        return;
+      }
+
+      const status = document.getElementById('status');
+      status.innerHTML = "⏳ Uploading to Shelby...";
+
+      try {
+        // Real Shelby SDK use korte hole developers.shelby.xyz theke API key nite hobe
+        // Ekhane simple demo version
+        status.innerHTML = "✅ File uploaded successfully (Demo Mode)";
+        
+        document.getElementById('result').innerHTML = `
+          <h3>Upload Details:</h3>
+          <p><strong>File Name:</strong> ${file.name}</p>
+          <p><strong>Size:</strong> ${(file.size / 1024 / 1024).toFixed(2)} MB</p>
+          <p><strong>Status:</strong> Uploaded to Shelby Network</p>
+          <p><strong>Note:</strong> Real upload + cryptographic proof er jonno Shelby Early Access API key lagbe</p>
+          <p><a href="https://developers.shelby.xyz" target="_blank">Get API Key →</a></p>
+        `;
+      } catch (error) {
+        status.innerHTML = "❌ Error: " + error.message;
+      }
+    }
+  </script>
+</body>
+</html>
