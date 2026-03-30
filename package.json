@@ -1,7 +1,8 @@
 {
   "name": "my-shelby-uploader",
   "version": "1.0.0",
-  "description": "Shelby verifiable storage uploader demo",
+  "description": "Complete demo of Shelby verifiable global object storage",
   "author": "Rokon",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": ["shelby", "verifiable-storage", "aptos", "ai-storage", "decentralized-storage"]
 }
