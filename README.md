@@ -1,42 +1,50 @@
 # My Shelby Uploader
 
-A simple yet complete file uploader built with **Shelby** — Verifiable Global Object Storage for AI and Web3.
+**Complete Professional Demo Project** built with **Shelby** — The Verifiable Global Hot Storage Platform for AI.
 
-**"Write once, read anywhere"** with cryptographic proofs on every read.
+**"Write Once, Read Anywhere"** with **cryptographic proofs** for every read. Co-developed by Aptos Labs and Jump Crypto.
 
-### Features
-- Upload images, videos or any file to Shelby network
-- Clean and responsive UI
-- Demo mode (real upload ready for Shelby SDK)
-- Prepared for Early Access integration
-- Shows I'm actively building on Shelby
+### Why Shelby?
+- Single global namespace (no replication needed)
+- Sub-second reads with cryptographic verification
+- Up to 70% lower egress costs
+- Perfect for AI training, GenAI content, and verifiable data
+
+### Features of this Project
+- Beautiful modern UI for file upload
+- Supports images, videos, and documents
+- Demo upload simulation with Shelby branding
+- Full documentation and future integration plan
+- Shows that I am actively building on Shelby as an Early Access Developer
 
 ### Built by
-**Rokon** — Shelby Early Access Developer
+**Rokon** — Shelby Early Access Developer (March 2026)
 
 ### Tech Stack
-- HTML + CSS + JavaScript
-- Ready for Shelby SDK (S3-compatible / React / Solana)
-- Will integrate cryptographic proof + verifiable storage
+- HTML5, CSS3, Vanilla JavaScript
+- Ready for Shelby SDK (React, Solana, Ethereum, S3-compatible)
+- Designed for cryptographic proof display
 
-### How to Use
-1. Open `index.html` in your browser
-2. Select any file (image/video recommended)
-3. Click **Upload to Shelby**
-4. See demo result (real version e API key use kora hobe)
+### How to Run
+1. Open `index.html` in any browser
+2. Select a file (image/video recommended)
+3. Click "Upload to Shelby"
+4. See the demo result with Shelby details
 
-### Future Plan
-- Integrate official Shelby SDK from `shelby-quickstart`
-- Add cryptographic proof display
-- Add read/download with verification
-- Deploy as live demo on Vercel
+### Roadmap for Real Integration
+- Replace demo with official Shelby SDK
+- Add real upload with API key
+- Display cryptographic proof after upload
+- Add file listing and verifiable read feature
+- Deploy as live demo
 
-Made during Shelby Early Access Program (March 2026)
+Made to strengthen my GitHub profile as a **Shelby Developer**.
 
-**Official Shelby Links:**
+**Official Shelby Resources:**
 - Website: https://shelby.xyz
-- Docs: https://docs.shelby.xyz
+- Documentation: https://docs.shelby.xyz
+- Early Access: https://developers.shelby.xyz
 - Quickstart: https://github.com/shelby/shelby-quickstart
 - Examples: https://github.com/shelby/examples
 
-Star this repo if you like it! 🚀
+If you like this project, please star it! 🚀
